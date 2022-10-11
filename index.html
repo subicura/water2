@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+<TITLE> :: 대항해 시대 2 온라인(?) :: </TITLE>
+<SCRIPT language="JavaScript" src="js/common.js" charset="UTF-8"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	// 게임 팝업
+	function start_game()
+	{
+		if(getNavigatorType() & 3)
+			window.open("game_main.html","GameMain", "width=1020, height=764, resizable=no, scrollbars=no, status=no");
+		else
+			window.open("game_main.html","GameMain", "width=1024, height=768, resizable=no, scrollbars=no, status=no");
+	}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY bgcolor="black">
+		<DIV align="center" style="position:relative; top:200px;">
+			<IMG src="images/title.png" onclick="start_game()" style="cursor:pointer">
+		</DIV>
+</BODY>
+</HTML>
